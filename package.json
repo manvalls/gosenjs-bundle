@@ -1,0 +1,32 @@
+{
+  "name": "@gosen/bundle",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rm -rf lib && tsc && rollup -c && cd dist && gzip -9 gosen.js --keep"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manvalls/gosenjs-bundle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manvalls/gosenjs-bundle/issues"
+  },
+  "homepage": "https://gosen.dev",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.20.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@gosen/router": "^0.0.6"
+  }
+}
