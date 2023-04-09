@@ -27,6 +27,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@gosen/call": "^0.0.8",
     "@gosen/router": "^0.0.14"
   }
 }
