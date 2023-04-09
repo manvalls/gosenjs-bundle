@@ -27,6 +27,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@gosen/router": "^0.0.9"
+    "@gosen/router": "^0.0.10"
   }
 }
