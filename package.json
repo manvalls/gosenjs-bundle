@@ -23,11 +23,11 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-terser": "^0.4.1",
-    "rollup": "^3.21.2",
+    "rollup": "^3.21.6",
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@gosen/call": "^0.0.16",
+    "@gosen/call": "^0.0.17",
     "@gosen/router": "^0.0.22"
   }
 }
