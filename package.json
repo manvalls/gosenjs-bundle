@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@gosen/call": "^0.0.17",
-    "@gosen/router": "^0.0.23"
+    "@gosen/router": "^0.0.24"
   }
 }
